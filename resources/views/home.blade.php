@@ -2,33 +2,26 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-* {
-  box-sizing: border-box;
-}
+* {box-sizing: border-box;}
 
 .bg-image {
   /* Full height */
   height: 100%;
   width: 100%; 
-  
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 /* Images used */
 .img1 { background-image: url("laravel8.jpg"); }
-/* .img2 { background-image: url("3.jpg"); } */
-.img3 { background-image: url("4.jpg"); }
-
 /* Position text in the middle of the page/image */
 .bg-text {
   background-color: rgb(0,0,0); /* Fallback color */
@@ -46,20 +39,14 @@ body, html {
   padding: 20px;
   text-align: center;
 }
-</style>
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .topnav {
   overflow: hidden;
   background-color: #c2c2a3;
 }
-
 .topnav a {
   float: left;
   display: block;
@@ -69,21 +56,17 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
-
 .topnav a:hover {
   background-color: #b3ecff;
   color: black;
 }
-
 .topnav a.active {
   background-color: #ff3333;
   color: white;
 }
-
 .topnav .icon {
   display: none;
 }
-
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -91,7 +74,6 @@ body {
     display: block;
   }
 }
-
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
@@ -138,7 +120,7 @@ function myFunction() {
 </script>
 <div class="bg-image img1"></div>
 <!-- <div class="bg-image img2"></div> -->
-<div class="bg-image img3"></div>
+<img src="01.jpg" alt="php vs laravel" style="width:1500px;height:600px;">
 
 </body>
 </html>
