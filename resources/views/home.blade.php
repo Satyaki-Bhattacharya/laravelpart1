@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Laravel FrameWork</title>
+<link rel="shortcut icon" href="https://www.bunnyshell.com/blog/wp-content/uploads/2020/09/featured-image.jpg">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -87,6 +89,7 @@ body {
     text-align: left;
   }
 }
+
 </style>
 </head>
 <body>
@@ -120,8 +123,18 @@ function myFunction() {
 </script>
 <div class="bg-image img1"></div>
 <!-- <div class="bg-image img2"></div> -->
-<img src="01.jpg" alt="php vs laravel" style="width:1500px;height:600px;">
+<img src="01.jpg" alt="php vs laravel" style="width:1350px;height:600px;">
 
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="https://www.facebook.com"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">Powered by <a href="https://www.laravel.com" target="_blank">Laravel.com</a>
+  </p>
+</footer>
 </body>
 </html>
 
